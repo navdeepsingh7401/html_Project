@@ -1,0 +1,74 @@
+<!-- Essential HTML project 
+=================================
+Mini-project:
+Build a simple personal profile page containing:
+- Your name
+- Introduction
+- Profile image
+- Hobbies
+- Skills
+- Links
+- Ordered/unordered lists
+=================================
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal profile page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2>hello my name is</h2>
+        <h1>Navdeep Singh</h1>
+      </header>
+      <section id="introduction">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="my-image"
+        />
+        <h3>myself</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo iste in
+          non alias quidem sequi tenetur nesciunt minus laborum enim fugiat
+          consequuntur voluptatibus inventore sed, aliquam id omnis
+          reprehenderit quos?
+        </p>
+        <h2>my Hobby</h2>
+        <ul>
+          <li>
+            playing games
+            <ol>
+              <li>BGMI</li>
+              <li>Free Fire</li>
+            </ol>
+          </li>
+          <li>
+            Learning new things
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ol>
+          </li>
+          <li>
+            Watching
+            <ol>
+              <li>Witcher 3</li>
+              <li>ABC</li>
+              <li>TOON</li>
+            </ol>
+          </li>
+        </ul>
+
+        <h3>Want to connect</h3>
+        <a href="#">X</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Twitter</a>
+      </section>
+    </main>
+  </body>
+</html>
