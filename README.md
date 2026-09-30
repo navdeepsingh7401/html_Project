@@ -50,6 +50,13 @@ The CSS for this project was written with the help of ChatGPT to improve the tab
 
 ![studentResultTable Preview](implement_Learning/studentResultTable/Result.png)
 
+### Project: registrationForm
+
+- `implement_Learning/registrationForm/registrationFrom.html` - a student registration form with text, email, password, date, radio, select, checkbox, textarea, telephone, and file inputs
+- `implement_Learning/registrationForm/result.png` - screenshot of the completed registration form
+
+![Student Registration Form Preview](implement_Learning/registrationForm/result.png)
+
 ## Purpose
 
 This repo is a beginner learning project focused on:

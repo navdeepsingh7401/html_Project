@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #ddd;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+</style>
+<body>
+
+    <form action="#">
+
+        <fieldset>
+
+            <legend>Student Registration</legend>
+
+            <!-- Full Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" name="fullName" id="name">
+
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+
+            <br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+
+            <br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+
+            <br><br>
+
+            <!-- Course -->
+            <label for="course">Course:</label>
+
+            <select name="course" id="course">
+                <option value="" selected disabled>Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BA">BA</option>
+            </select>
+
+            <br><br>
+
+            <!-- Skills -->
+            <label>Skills:</label>
+
+            <label for="html">HTML</label>
+            <input type="checkbox" name="skills" id="html" value="html">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" name="skills" id="css" value="css">
+
+            <label for="js">JavaScript</label>
+            <input type="checkbox" name="skills" id="js" value="javascript">
+
+            <br><br>
+
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <br>
+            <textarea name="address" id="address" rows="4" cols="40"></textarea>
+
+            <br><br>
+
+            <!-- Phone -->
+            <label for="phoneNo">Phone:</label>
+            <input type="tel" name="phoneNo" id="phoneNo">
+
+            <br><br>
+
+            <!-- Upload Photo -->
+            <label for="uploadPhoto">Upload Photo:</label>
+            <input
+                type="file"
+                name="uploadPhoto"
+                id="uploadPhoto"
+                accept="image/*"
+            >
+
+            <br><br>
+
+            <!-- Buttons -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
