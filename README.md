@@ -27,6 +27,15 @@ I made this project to improve my understanding of:
 - `project 3/list.html` - examples of ordered, unordered, and nested lists
 - `project 3/CompleteExample.html` - a simple complete HTML page that combines several elements together
 - `project 3/assets/` - supporting assets used in the HTML lessons
+- `project 4/Forms.html` - a lesson on HTML form structure, inputs, buttons, and form methods
+- `project 4/InputTypes.html` - examples of all the common HTML input types and their use cases
+- `project 4/table.html` - a lesson covering table elements, rows, headers, spans, captions, and table layout
+- `project 4/LabelsAndPlaceholders.html` - examples showing how labels and placeholders improve form usability
+- `project 4/Entities.html` - examples of HTML special characters using entities like `&lt;`, `&amp;`, and `&copy;`
+- `project 4/SemanticTags.html` - examples of semantic tags such as `header`, `main`, `nav`, `article`, `aside`, and `footer`
+- `project 4/divAndSpan.html` - a lesson comparing block-level `div` and inline `span` elements
+- `project 4/filePathAndFolderStructure.html` - examples of relative paths and understanding project folder organization
+- `project 4/iframe.html` - examples of embedding another webpage inside the current page using `iframe`
 
 ## Purpose
 
