@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <p>HTML forms are used to collect user input, such as text, email, password, checkboxes, and more.</p>
+
+    <h2>1. Basic Form Structure</h2>
+    <p>The main form tags are:</p>
+    <ul>
+        <li>&lt;form&gt; — creates the form</li>
+        <li>&lt;input&gt; — creates different input fields</li>
+        <li>&lt;label&gt; — labels the input</li>
+        <li>&lt;textarea&gt; — allows multi-line text input</li>
+        <li>&lt;select&gt; — creates a dropdown list</li>
+        <li>&lt;button&gt; — submits or triggers an action</li>
+    </ul>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;form&gt;
+  &lt;label for="name"&gt;Name:&lt;/label&gt;
+  &lt;input type="text" id="name" name="name"&gt;
+  &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+    </pre>
+
+    <h2>2. Text Input</h2>
+    <p>The <strong>text</strong> input is used for a single line of text.</p>
+
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="text" name="firstname"&gt;
+    </pre>
+
+    <h2>3. Email Input</h2>
+    <p>The <strong>email</strong> input is used to accept email addresses.</p>
+
+    <form>
+        <label for="useremail">Email:</label>
+        <input type="email" id="useremail" name="useremail">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="email" name="useremail"&gt;
+    </pre>
+
+    <h2>4. Password Input</h2>
+    <p>The <strong>password</strong> input hides the typed text.</p>
+
+    <form>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="password" name="pass"&gt;
+    </pre>
+
+    <h2>5. Radio Buttons</h2>
+    <p>Radio buttons let the user choose only one option.</p>
+
+    <form>
+        <p>Choose your favorite language:</p>
+        <input type="radio" id="html" name="language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="js" name="language" value="JavaScript">
+        <label for="js">JavaScript</label>
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="radio" name="language" value="HTML"&gt;
+    </pre>
+
+    <h2>6. Checkboxes</h2>
+    <p>Checkboxes allow multiple selections.</p>
+
+    <form>
+        <p>Select your hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label><br>
+
+        <input type="checkbox" id="travel" name="hobby" value="Travel">
+        <label for="travel">Travel</label><br>
+
+        <input type="checkbox" id="music" name="hobby" value="Music">
+        <label for="music">Music</label>
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="checkbox" name="hobby" value="Reading"&gt;
+    </pre>
+
+    <h2>7. Textarea</h2>
+    <p>The <strong>textarea</strong> element allows multi-line text input.</p>
+
+    <form>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;textarea rows="4" cols="30"&gt;&lt;/textarea&gt;
+    </pre>
+
+    <h2>8. Select Dropdown</h2>
+    <p>The <strong>select</strong> element creates a dropdown list.</p>
+
+    <form>
+        <label for="country">Choose a country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </select>
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;select&gt;
+  &lt;option value="india"&gt;India&lt;/option&gt;
+  &lt;option value="usa"&gt;USA&lt;/option&gt;
+&lt;/select&gt;
+    </pre>
+
+    <h2>9. Submit and Reset Buttons</h2>
+    <p>Buttons are used to submit or reset the form.</p>
+
+    <form>
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;input type="submit" value="Submit Form"&gt;
+&lt;input type="reset" value="Reset"&gt;
+    </pre>
+
+    <h2>10. Common Form Attributes</h2>
+    <ul>
+        <li><strong>action</strong> — where the form data is sent</li>
+        <li><strong>method</strong> — how the form is sent, usually GET or POST</li>
+        <li><strong>name</strong> — identifies the field</li>
+        <li><strong>placeholder</strong> — displays example text inside the input</li>
+        <li><strong>required</strong> — makes a field mandatory</li>
+    </ul>
+
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <p>Example:</p>
+    <pre>
+&lt;form action="#" method="post"&gt;
+  &lt;input type="text" name="username" placeholder="Enter username" required&gt;
+  &lt;input type="submit" value="Register"&gt;
+&lt;/form&gt;
+    </pre>
+
+    <h2>11. Complete Example</h2>
+    <form action="#" method="post">
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter full name" required><br><br>
+
+        <label for="email-id">Email:</label><br>
+        <input type="email" id="email-id" name="email-id" placeholder="you@example.com" required><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
