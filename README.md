@@ -20,7 +20,13 @@ I made this project to improve my understanding of:
 - `project 3/WhatisHTML.html` - an introduction to what HTML is and why it is used
 - `project 3/HTMLDocumentStructure.html` - a lesson on the basic structure of an HTML document
 - `project 3/Headings.html` - a lesson on heading levels from `h1` to `h6` and how to use them properly
-- `project 3/Paragraphs&TextFormatting.html` - a lesson on paragraphs, inline text styling, and HTML comments
+- `project 3/Paragraphs_TextFormatting&comment.html` - a lesson on paragraphs, inline text formatting, and HTML comments
+- `project 3/BasicAttributes.html` - examples of common HTML attributes such as `title`, `id`, `class`, `href`, and `src`
+- `project 3/image.html` - examples of embedding images in HTML
+- `project 3/link.html` - examples of links, anchors, and email links
+- `project 3/list.html` - examples of ordered, unordered, and nested lists
+- `project 3/CompleteExample.html` - a simple complete HTML page that combines several elements together
+- `project 3/assets/` - supporting assets used in the HTML lessons
 
 ## Purpose
 
