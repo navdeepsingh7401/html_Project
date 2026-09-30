@@ -20,6 +20,7 @@ I made this project to improve my understanding of:
 - `project 3/WhatisHTML.html` - an introduction to what HTML is and why it is used
 - `project 3/HTMLDocumentStructure.html` - a lesson on the basic structure of an HTML document
 - `project 3/Headings.html` - a lesson on heading levels from `h1` to `h6` and how to use them properly
+- `project 3/Paragraphs&TextFormatting.html` - a lesson on paragraphs, inline text styling, and HTML comments
 
 ## Purpose
 
