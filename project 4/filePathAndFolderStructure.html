@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Path and Folder Structure</title>
+</head>
+<body>
+    <h1>File Paths and Folder Structure</h1>
+
+    <h2>What is a file path?</h2>
+    <p>A file path tells the browser or system where to find a file. This is important for linking stylesheets, images, and other pages.</p>
+
+    <h3>Relative Path</h3>
+    <p>A relative path is based on the current file location.</p>
+    <pre>
+img src="images/photo.jpg"
+link rel="stylesheet" href="css/style.css"
+    </pre>
+
+    <h3>Absolute Path</h3>
+    <p>An absolute path gives the full location of a file.</p>
+    <pre>
+&lt;img src="/Users/navdeep/project/images/photo.jpg" alt="Photo"&gt;
+    </pre>
+
+    <h2>Folder Structure Example</h2>
+    <pre>
+my-website/
+├── index.html
+├── about.html
+├── images/
+│   └── logo.png
+├── css/
+│   └── style.css
+└── js/
+    └── script.js
+    </pre>
+
+    <h2>Examples</h2>
+    <ul>
+        <li><strong>index.html</strong> is the homepage</li>
+        <li><strong>images/logo.png</strong> is a path to an image file</li>
+        <li><strong>css/style.css</strong> is a path to a stylesheet</li>
+    </ul>
+
+    <h2>Using paths in HTML</h2>
+    <img src="images/logo.png" alt="Website logo" width="150">
+    <pre>
+&lt;img src="images/logo.png" alt="Website logo" width="150"&gt;
+    </pre>
+
+    <p>Remember: always use the correct relative path based on the current folder.</p>
+</body>
+</html>
