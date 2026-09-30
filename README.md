@@ -39,14 +39,16 @@ I made this project to improve my understanding of:
 
 ## Side project: implement_Learning
 
-This folder contains a small practice project that I built to apply the HTML and table concepts I learned in the main lessons.
+The folder `implement_Learning` is my personal practice folder where I build small projects to apply the HTML lessons I have learned.
 
-- `implement_Learning/studentResultTable/studentResultTable.html` - a student result table page created to practice table layout, colspan, headings, and styling
-- `implement_Learning/studentResultTable/Result.png` - screenshot of the final result page
+### Project: studentResultTable
 
-The CSS for this table page was written with help from ChatGPT to improve the layout, colors, hover effects, and table presentation while keeping the structure in HTML.
+- `implement_Learning/studentResultTable/studentResultTable.html` - a student result table project created to practice table structure, `colspan`, headings, and layout styling
+- `implement_Learning/studentResultTable/Result.png` - screenshot of the completed result table page
 
-![Student Result Table Preview](implement_Learning/studentResultTable/Result.png)
+The CSS for this project was written with the help of ChatGPT to improve the table design, spacing, colors, and hover effects while keeping the HTML structure clean and educational.
+
+![studentResultTable Preview](implement_Learning/studentResultTable/Result.png)
 
 ## Purpose
 
