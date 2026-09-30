@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Types</title>
+</head>
+<body>
+    <h1>HTML Input Types</h1>
+
+    <p>The <strong>&lt;input&gt;</strong> element is one of the most important tools in HTML forms. The <strong>type</strong> attribute controls what kind of data the user can enter.</p>
+
+    <h2>1. Text</h2>
+    <p>Used for single-line text input.</p>
+    <input type="text" name="name" placeholder="Enter your name">
+    <pre>
+&lt;input type="text" name="name" placeholder="Enter your name"&gt;
+    </pre>
+
+    <h2>2. Password</h2>
+    <p>Used for passwords. The entered text is hidden.</p>
+    <input type="password" name="password" placeholder="Enter password">
+    <pre>
+&lt;input type="password" name="password" placeholder="Enter password"&gt;
+    </pre>
+
+    <h2>3. Email</h2>
+    <p>Used for email addresses.</p>
+    <input type="email" name="email" placeholder="example@email.com">
+    <pre>
+&lt;input type="email" name="email" placeholder="example@email.com"&gt;
+    </pre>
+
+    <h2>4. Number</h2>
+    <p>Used for numeric input.</p>
+    <input type="number" name="age" min="1" max="100">
+    <pre>
+&lt;input type="number" name="age" min="1" max="100"&gt;
+    </pre>
+
+    <h2>5. Search</h2>
+    <p>Used for search boxes.</p>
+    <input type="search" name="search" placeholder="Search...">
+    <pre>
+&lt;input type="search" name="search" placeholder="Search..."&gt;
+    </pre>
+
+    <h2>6. Tel</h2>
+    <p>Used for phone numbers.</p>
+    <input type="tel" name="phone" placeholder="123-456-7890">
+    <pre>
+&lt;input type="tel" name="phone" placeholder="123-456-7890"&gt;
+    </pre>
+
+    <h2>7. URL</h2>
+    <p>Used for website URLs.</p>
+    <input type="url" name="website" placeholder="https://example.com">
+    <pre>
+&lt;input type="url" name="website" placeholder="https://example.com"&gt;
+    </pre>
+
+    <h2>8. Date</h2>
+    <p>Used for date selection.</p>
+    <input type="date" name="dob">
+    <pre>
+&lt;input type="date" name="dob"&gt;
+    </pre>
+
+    <h2>9. Time</h2>
+    <p>Used for time selection.</p>
+    <input type="time" name="meeting-time">
+    <pre>
+&lt;input type="time" name="meeting-time"&gt;
+    </pre>
+
+    <h2>10. Datetime-local</h2>
+    <p>Used for date and time without timezone.</p>
+    <input type="datetime-local" name="event-time">
+    <pre>
+&lt;input type="datetime-local" name="event-time"&gt;
+    </pre>
+
+    <h2>11. Month</h2>
+    <p>Used to select a month.</p>
+    <input type="month" name="birthday-month">
+    <pre>
+&lt;input type="month" name="birthday-month"&gt;
+    </pre>
+
+    <h2>12. Week</h2>
+    <p>Used to select a week.</p>
+    <input type="week" name="week-number">
+    <pre>
+&lt;input type="week" name="week-number"&gt;
+    </pre>
+
+    <h2>13. Color</h2>
+    <p>Used to select a color.</p>
+    <input type="color" name="favorite-color" value="#ff0000">
+    <pre>
+&lt;input type="color" name="favorite-color" value="#ff0000"&gt;
+    </pre>
+
+    <h2>14. Checkbox</h2>
+    <p>Used to allow multiple selections.</p>
+    <input type="checkbox" name="subscribe" checked> Subscribe to newsletter
+    <pre>
+&lt;input type="checkbox" name="subscribe" checked&gt; Subscribe to newsletter
+    </pre>
+
+    <h2>15. Radio</h2>
+    <p>Used when only one option can be selected.</p>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <pre>
+&lt;input type="radio" name="gender" value="male"&gt; Male
+&lt;input type="radio" name="gender" value="female"&gt; Female
+    </pre>
+
+    <h2>16. File</h2>
+    <p>Used to upload files.</p>
+    <input type="file" name="resume">
+    <pre>
+&lt;input type="file" name="resume"&gt;
+    </pre>
+
+    <h2>17. Range</h2>
+    <p>Used for selecting a value from a range.</p>
+    <input type="range" name="volume" min="0" max="100" value="50">
+    <pre>
+&lt;input type="range" name="volume" min="0" max="100" value="50"&gt;
+    </pre>
+
+    <h2>18. Hidden</h2>
+    <p>Used to store data that is not visible to the user.</p>
+    <input type="hidden" name="user_id" value="101">
+    <pre>
+&lt;input type="hidden" name="user_id" value="101"&gt;
+    </pre>
+
+    <h2>19. Submit</h2>
+    <p>Used to submit the form.</p>
+    <input type="submit" value="Submit">
+    <pre>
+&lt;input type="submit" value="Submit"&gt;
+    </pre>
+
+    <h2>20. Reset</h2>
+    <p>Used to reset the form back to default values.</p>
+    <input type="reset" value="Reset">
+    <pre>
+&lt;input type="reset" value="Reset"&gt;
+    </pre>
+
+    <h2>21. Button</h2>
+    <p>Used to trigger JavaScript or a custom action.</p>
+    <input type="button" value="Click Me">
+    <pre>
+&lt;input type="button" value="Click Me"&gt;
+    </pre>
+
+    <h2>22. Image</h2>
+    <p>Used to submit a form with an image instead of a button.</p>
+    <input type="image" src="https://via.placeholder.com/100x40" alt="Submit button">
+    <pre>
+&lt;input type="image" src="image.png" alt="Submit button"&gt;
+    </pre>
+
+    <h2>23. Full Example</h2>
+    <form>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName"><br><br>
+
+        <label for="emailAddress">Email:</label>
+        <input type="email" id="emailAddress" name="emailAddress"><br><br>
+
+        <label for="birthDate">Birth Date:</label>
+        <input type="date" id="birthDate" name="birthDate"><br><br>
+
+        <label for="favoriteColor">Favorite Color:</label>
+        <input type="color" id="favoriteColor" name="favoriteColor"><br><br>
+
+        <label for="ageRange">Age:</label>
+        <input type="number" id="ageRange" name="ageRange" min="1" max="100"><br><br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+
+    <pre>
+&lt;form&gt;
+  &lt;input type="text" name="fullName"&gt;
+  &lt;input type="email" name="emailAddress"&gt;
+  &lt;input type="date" name="birthDate"&gt;
+  &lt;input type="color" name="favoriteColor"&gt;
+  &lt;input type="number" name="ageRange" min="1" max="100"&gt;
+  &lt;input type="submit" value="Submit Form"&gt;
+&lt;/form&gt;
+    </pre>
+</body>
+</html>
