@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+
+    <p>Tables are used to display data in rows and columns.</p>
+
+    <h2>1. Basic Table</h2>
+    <p>The main table tags are:</p>
+    <ul>
+        <li>&lt;table&gt; - creates the table</li>
+        <li>&lt;tr&gt; - creates a row</li>
+        <li>&lt;th&gt; - creates a table header cell</li>
+        <li>&lt;td&gt; - creates a data cell</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Navdeep</td>
+            <td>25</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Riya</td>
+            <td>22</td>
+            <td>Jaipur</td>
+        </tr>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Navdeep&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+
+    <h2>2. Table Header, Body, and Footer</h2>
+    <p>Large tables can be split into sections.</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Phone</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>$900</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>$1400</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;thead&gt;
+  &lt;tr&gt;&lt;th&gt;Product&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;&lt;td&gt;Phone&lt;/td&gt;&lt;td&gt;$500&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+    </pre>
+
+    <h2>3. Colspan</h2>
+    <p><strong>colspan</strong> makes one cell stretch across multiple columns.</p>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr>
+            <td>Navdeep</td>
+            <td>123456</td>
+            <td>navdeep@email.com</td>
+        </tr>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;th colspan="2"&gt;Contact&lt;/th&gt;
+    </pre>
+
+    <h2>4. Rowspan</h2>
+    <p><strong>rowspan</strong> makes one cell stretch across multiple rows.</p>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Navdeep</td>
+            <td>Student</td>
+        </tr>
+        <tr>
+            <td>Developer</td>
+        </tr>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;td rowspan="2"&gt;Navdeep&lt;/td&gt;
+    </pre>
+
+    <h2>5. Caption</h2>
+    <p>The <strong>&lt;caption&gt;</strong> tag adds a title to a table.</p>
+
+    <table border="1">
+        <caption>Student Information</caption>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Riya</td>
+            <td>HTML</td>
+        </tr>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;table border="1"&gt;
+  &lt;caption&gt;Student Information&lt;/caption&gt;
+&lt;/table&gt;
+    </pre>
+
+    <h2>6. Cellpadding and Cellspacing</h2>
+    <p>These attributes help control spacing inside and between cells.</p>
+
+    <table border="2" cellpadding="8" cellspacing="2">
+        <tr>
+            <th>Month</th>
+            <th>Sales</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$1500</td>
+        </tr>
+    </table>
+
+    <p>Example:</p>
+    <pre>
+&lt;table border="2" cellpadding="8" cellspacing="2"&gt;
+    ...
+&lt;/table&gt;
+    </pre>
+
+    <h2>7. Full Example</h2>
+    <table border="1">
+        <caption>Employee Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Navdeep</td>
+                <td>Web Development</td>
+                <td>Delhi</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Riya</td>
+                <td>Design</td>
+                <td>Jaipur</td>
+            </tr>
+            <tr>
+                <td colspan="2">Project Team</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>8. Summary</h2>
+    <ul>
+        <li>&lt;table&gt; defines the table</li>
+        <li>&lt;tr&gt; defines a row</li>
+        <li>&lt;th&gt; defines a heading cell</li>
+        <li>&lt;td&gt; defines a normal cell</li>
+        <li>&lt;thead&gt; defines header content</li>
+        <li>&lt;tbody&gt; defines body content</li>
+        <li>&lt;tfoot&gt; defines footer content</li>
+        <li>colspan merges columns</li>
+        <li>rowspan merges rows</li>
+        <li>caption adds a title to the table</li>
+    </ul>
+</body>
+</html>
