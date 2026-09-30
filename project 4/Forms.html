@@ -178,6 +178,25 @@
         <li><strong>required</strong> — makes a field mandatory</li>
     </ul>
 
+    <h2>11. GET vs POST</h2>
+    <p><strong>GET</strong> sends form data in the URL. It is suitable for simple searches and requests.</p>
+    <p><strong>POST</strong> sends form data in the request body. It is better for sensitive or larger data, like login and sign-up forms.</p>
+
+    <h3>Example of GET</h3>
+    <form action="#" method="get">
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="q" placeholder="Search here">
+        <input type="submit" value="Search">
+    </form>
+
+    <pre>
+&lt;form action="#" method="get"&gt;
+  &lt;input type="text" name="q"&gt;
+  &lt;input type="submit" value="Search"&gt;
+&lt;/form&gt;
+    </pre>
+
+    <h3>Example of POST</h3>
     <form action="#" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" placeholder="Enter username" required><br><br>
@@ -185,7 +204,6 @@
         <input type="submit" value="Register">
     </form>
 
-    <p>Example:</p>
     <pre>
 &lt;form action="#" method="post"&gt;
   &lt;input type="text" name="username" placeholder="Enter username" required&gt;
@@ -193,7 +211,7 @@
 &lt;/form&gt;
     </pre>
 
-    <h2>11. Complete Example</h2>
+    <h2>12. Complete Example</h2>
     <form action="#" method="post">
         <label for="full-name">Full Name:</label><br>
         <input type="text" id="full-name" name="full-name" placeholder="Enter full name" required><br><br>
