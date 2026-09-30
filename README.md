@@ -37,6 +37,17 @@ I made this project to improve my understanding of:
 - `project 4/filePathAndFolderStructure.html` - examples of relative paths and understanding project folder organization
 - `project 4/iframe.html` - examples of embedding another webpage inside the current page using `iframe`
 
+## Side project: implement_Learning
+
+This folder contains a small practice project that I built to apply the HTML and table concepts I learned in the main lessons.
+
+- `implement_Learning/studentResultTable/studentResultTable.html` - a student result table page created to practice table layout, colspan, headings, and styling
+- `implement_Learning/studentResultTable/Result.png` - screenshot of the final result page
+
+The CSS for this table page was written with help from ChatGPT to improve the layout, colors, hover effects, and table presentation while keeping the structure in HTML.
+
+![Student Result Table Preview](implement_Learning/studentResultTable/Result.png)
+
 ## Purpose
 
 This repo is a beginner learning project focused on:
