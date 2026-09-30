@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels and Placeholders</title>
+</head>
+<body>
+    <h1>Labels and Placeholders</h1>
+
+    <h2>What is a label?</h2>
+    <p>The <strong>&lt;label&gt;</strong> element helps describe the purpose of an input field. It improves accessibility and makes forms easier to use.</p>
+
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+    </form>
+
+    <pre>
+&lt;label for="username"&gt;Username:&lt;/label&gt;
+&lt;input type="text" id="username" name="username" placeholder="Enter your username"&gt;
+    </pre>
+
+    <h2>What is a placeholder?</h2>
+    <p>The <strong>placeholder</strong> attribute displays hint text inside the input before the user types anything.</p>
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com">
+    </form>
+
+    <pre>
+&lt;input type="email" placeholder="name@example.com"&gt;
+    </pre>
+
+    <h2>Why use them?</h2>
+    <ul>
+        <li>Labels explain what the field is for.</li>
+        <li>Placeholders show a short example of expected input.</li>
+        <li>They improve user experience and accessibility.</li>
+    </ul>
+
+    <h2>Complete Example</h2>
+    <form>
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter first name"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
