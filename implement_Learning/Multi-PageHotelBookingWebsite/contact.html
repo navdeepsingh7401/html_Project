@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ABC Hotel</title>
+</head>
+<body>
+    <header>
+        <p><a href="index.html">ABC Hotel</a></p>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="booking.html">Booking</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact ABC Hotel</h1>
+        <section aria-labelledby="contact-details-heading">
+            <h2 id="contact-details-heading">Contact information</h2>
+            <address>
+                ABC Hotel<br>
+                18 Summit Road<br>
+                Mountain View, CA 94040
+            </address>
+            <p>Email: <a href="mailto:hello@abchotel.example">hello@abchotel.example</a></p>
+            <p>Telephone: <a href="tel:+15550142000">+1 555 014 2000</a></p>
+        </section>
+        <section aria-labelledby="contact-form-heading">
+            <h2 id="contact-form-heading">Send us a message</h2>
+            <form action="#" method="get">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </p>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+        <section aria-labelledby="map-heading">
+            <h2 id="map-heading">Find us</h2>
+            <iframe
+                title="Map showing the location of ABC Hotel in Mountain View"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-122.12%2C37.38%2C-122.03%2C37.44&amp;layer=mapnik&amp;marker=37.41%2C-122.08"
+                width="600"
+                height="400"
+                loading="lazy">
+            </iframe>
+            <p><a href="https://www.openstreetmap.org/?mlat=37.41&amp;mlon=-122.08#map=13/37.41/-122.08">Open the map in OpenStreetMap</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <time datetime="2026">2026</time> ABC Hotel</p>
+    </footer>
+</body>
+</html>

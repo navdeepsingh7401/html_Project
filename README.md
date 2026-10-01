@@ -57,6 +57,14 @@ The CSS for this project was written with the help of ChatGPT to improve the tab
 
 ![Student Registration Form Preview](implement_Learning/registrationForm/result.png)
 
+### Project: Multi-PageHotelBookingWebsite
+
+- [Home page](implement_Learning/Multi-PageHotelBookingWebsite/index.html) with hotel information, facilities, featured rooms, images, and guest testimonials
+- [Rooms page](implement_Learning/Multi-PageHotelBookingWebsite/rooms.html) with a room comparison table, rates, facilities, and booking links
+- [Booking page](implement_Learning/Multi-PageHotelBookingWebsite/booking.html) with a labeled booking form and grouped controls
+- [About page](implement_Learning/Multi-PageHotelBookingWebsite/about.html) practicing semantic text, lists, quotations, and figures
+- [Contact page](implement_Learning/Multi-PageHotelBookingWebsite/contact.html) with contact links, a message form, and an embedded map
+
 ## Purpose
 
 This repo is a beginner learning project focused on:

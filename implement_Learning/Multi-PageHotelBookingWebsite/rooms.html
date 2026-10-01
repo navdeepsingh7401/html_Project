@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms | ABC Hotel</title>
+</head>
+<body>
+    <header>
+        <p><a href="index.html">ABC Hotel</a></p>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="rooms.html" aria-current="page">Rooms</a>
+            <a href="booking.html">Booking</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Rooms and rates</h1>
+        <p>Compare room types and choose the one that suits your stay.</p>
+        <table>
+            <caption>Room features and nightly rates</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Room</th>
+                    <th scope="col">Guests</th>
+                    <th scope="col">Facilities</th>
+                    <th scope="col">Rate per night</th>
+                    <th scope="col">Booking</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Standard Room</th>
+                    <td>2</td>
+                    <td>Queen bed, Wi-Fi, private bathroom</td>
+                    <td>$120</td>
+                    <td><a href="booking.html?room=standard">Book Standard Room</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Mountain View Room</th>
+                    <td>2</td>
+                    <td>King bed, balcony, Wi-Fi, breakfast</td>
+                    <td>$175</td>
+                    <td><a href="booking.html?room=mountain-view">Book Mountain View Room</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">Family Suite</th>
+                    <td>4</td>
+                    <td>Two bedrooms, sitting area, Wi-Fi, breakfast</td>
+                    <td>$240</td>
+                    <td><a href="booking.html?room=family-suite">Book Family Suite</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <section aria-labelledby="room-gallery-heading">
+            <h2 id="room-gallery-heading">Room photos</h2>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A neatly prepared hotel room with a large bed" width="900" height="600">
+                <figcaption>Standard Room</figcaption>
+            </figure>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A bright hotel suite with a sitting area" width="900" height="600">
+                <figcaption>Family Suite</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <time datetime="2026">2026</time> ABC Hotel</p>
+        <p><a href="contact.html">Contact the hotel</a></p>
+    </footer>
+</body>
+</html>
